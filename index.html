@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section1" id="home">
+        <div class="card">
+            <img src="d-v.webp" alt="me">
+            <div class="text-n">
+                <h2 class="name">Rishabh</h2>
+                <p class="s-m">Your work-life balance guardian. Kyugo guards your work-life<br> balance and
+                    automatically solves your schedule <br>for work, meetings, and your free time.
+                </p>
+
+                <p class="s-r">
+                    <span id="element"></span>
+                </p>
+                <div class="home__social">
+                    <a href="your-linkedin-profile" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="your-behance-profile" class="home__social-icon"><i class='bx bxl-behance'></i></a>
+                    <a href="your-github-profile" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="your-facebook-profile" class="home__social-icon"><iconify-icon
+                            icon="ic:twotone-facebook"></iconify-icon></a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </section>
+
+    <!-- About section -->
+
+    <section class="section2" id="about">
+        <section class="about-section">
+            <div class="about-card">
+                <div class="about-gradient"></div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="about-description">
+                            Hi, I'm Rishabh Kumar Pandey, a passionate web developer with a love for creating elegant
+                            and responsive websites. My goal is to make the web a better place by crafting beautiful and
+                            functional user experiences. Also, I'm doing BBA (Bachelor of Business Administration). BBA
+                            is
+                            a three-year professional undergraduate course in Business Management.
+
+                        </p>
+                        <p class="about-quote">
+                            "Turning ideas into reality, one line of code at a time."
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="rishs.jpg" alt="Profile Image">
+                    </div>
+                </div>
+                <!-- Resume Section -->
+                <section class="resume-section">
+                <div class="resume-section">
+                    <h2 class="section-title">Resume</h2>
+                    <p class="resume-description">
+                        Explore my qualifications, skills, and experience by downloading my resume.
+                    </p>
+                    <a href="path-to-your-resume.pdf" class="resume-link" download>
+                        <button class="download-button">Download Resume</button>
+                    </a>
+                </div>
+        </section>
+        <hr>
+    </section>
+
+
+    <!-- Project section -->
+
+    <section class="sec3" id="projects">
+        <div id="nam" class="t-x">
+            projects....
+        </div>
+        <div class="project-section">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img class="project-image" src="rishs.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <button class="view-button">View</button>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img class="project-image" src="rishs.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                    <button class="view-button">View</button>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img class="project-image" src="rishs.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3.</p>
+                    <button class="view-button">View</button>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img class="project-image" src="rishs.jpg" alt="Project 4">
+                <div class="project-info">
+                    <h3>Project 4</h3>
+                    <p>Description of Project 4.</p>
+                    <button class="view-button">View</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-description">
+                Feel free to drop me a message. I'll get back to you as soon as possible.
+            </p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <!-- Contact Image -->
+        <div class="contact-image">
+            <img src="—Pngtree—.png" alt="Contact Image">
+        </div>
+        <hr>
+    </section>
+
+    <section class="skills-section" id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5</h3>
+                <p>Proficient</p>
+            </div>
+
+            <div class="skill">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS3</h3>
+                <p>Advanced</p>
+            </div>
+
+            <div class="skill">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+            </div>
+
+            <!-- Add more skills as needed -->
+
+        </div>
+        <hr>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h2>Contact Information</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: 9341878596</p>
+            </div>
+            <div class="footer-social">
+                <a href="your-linkedin-profile" class="footer-social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="your-behance-profile" class="footer-social-icon"><i class='bx bxl-behance'></i></a>
+                <a href="your-github-profile" class="footer-social-icon"><i class='bx bxl-github'></i></a>
+                <a href="your-facebook-profile" class="footer-social-icon"><iconify-icon
+                        icon="ic:twotone-facebook"></iconify-icon></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Rishabh Kumar Pandey. All rights reserved. | Designed by Rishabh</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['"Planning your day" is a thing of the past.', 'Wellcome to my portfollio'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
